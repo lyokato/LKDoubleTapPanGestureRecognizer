@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		904ACF791683F0E1009789DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 904ACF781683F0E1009789DB /* UIKit.framework */; };
+		904ACF7B1683F0E1009789DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 904ACF7A1683F0E1009789DB /* Foundation.framework */; };
+		904ACF7D1683F0E1009789DB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 904ACF7C1683F0E1009789DB /* CoreGraphics.framework */; };
+		904ACF831683F0E1009789DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 904ACF811683F0E1009789DB /* InfoPlist.strings */; };
+		904ACF851683F0E1009789DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 904ACF841683F0E1009789DB /* main.m */; };
+		904ACF891683F0E1009789DB /* LKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 904ACF881683F0E1009789DB /* LKAppDelegate.m */; };
+		904ACF8B1683F0E1009789DB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 904ACF8A1683F0E1009789DB /* Default.png */; };
+		904ACF8D1683F0E1009789DB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 904ACF8C1683F0E1009789DB /* Default@2x.png */; };
+		904ACF8F1683F0E1009789DB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 904ACF8E1683F0E1009789DB /* Default-568h@2x.png */; };
+		904ACF921683F0E1009789DB /* LKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 904ACF911683F0E1009789DB /* LKViewController.m */; };
+		904ACF951683F0E1009789DB /* LKViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 904ACF931683F0E1009789DB /* LKViewController.xib */; };
+		904ACFA11683F1A9009789DB /* LKDoubleTapPanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 904ACFA01683F1A9009789DB /* LKDoubleTapPanGestureRecognizer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		904ACF741683F0E0009789DB /* LKDoubleTapPanGestureExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LKDoubleTapPanGestureExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		904ACF781683F0E1009789DB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		904ACF7A1683F0E1009789DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		904ACF7C1683F0E1009789DB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		904ACF801683F0E1009789DB /* LKDoubleTapPanGestureExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LKDoubleTapPanGestureExample-Info.plist"; sourceTree = "<group>"; };
+		904ACF821683F0E1009789DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		904ACF841683F0E1009789DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		904ACF861683F0E1009789DB /* LKDoubleTapPanGestureExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LKDoubleTapPanGestureExample-Prefix.pch"; sourceTree = "<group>"; };
+		904ACF871683F0E1009789DB /* LKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKAppDelegate.h; sourceTree = "<group>"; };
+		904ACF881683F0E1009789DB /* LKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKAppDelegate.m; sourceTree = "<group>"; };
+		904ACF8A1683F0E1009789DB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		904ACF8C1683F0E1009789DB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		904ACF8E1683F0E1009789DB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		904ACF901683F0E1009789DB /* LKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKViewController.h; sourceTree = "<group>"; };
+		904ACF911683F0E1009789DB /* LKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKViewController.m; sourceTree = "<group>"; };
+		904ACF941683F0E1009789DB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LKViewController.xib; sourceTree = "<group>"; };
+		904ACF9F1683F1A9009789DB /* LKDoubleTapPanGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LKDoubleTapPanGestureRecognizer.h; path = ../../LKDoubleTapPanGestureRecognizer.h; sourceTree = "<group>"; };
+		904ACFA01683F1A9009789DB /* LKDoubleTapPanGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LKDoubleTapPanGestureRecognizer.m; path = ../../LKDoubleTapPanGestureRecognizer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		904ACF711683F0E0009789DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				904ACF791683F0E1009789DB /* UIKit.framework in Frameworks */,
+				904ACF7B1683F0E1009789DB /* Foundation.framework in Frameworks */,
+				904ACF7D1683F0E1009789DB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		904ACF691683F0E0009789DB = {
+			isa = PBXGroup;
+			children = (
+				904ACF7E1683F0E1009789DB /* LKDoubleTapPanGestureExample */,
+				904ACF771683F0E1009789DB /* Frameworks */,
+				904ACF751683F0E0009789DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		904ACF751683F0E0009789DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				904ACF741683F0E0009789DB /* LKDoubleTapPanGestureExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		904ACF771683F0E1009789DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				904ACF781683F0E1009789DB /* UIKit.framework */,
+				904ACF7A1683F0E1009789DB /* Foundation.framework */,
+				904ACF7C1683F0E1009789DB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		904ACF7E1683F0E1009789DB /* LKDoubleTapPanGestureExample */ = {
+			isa = PBXGroup;
+			children = (
+				904ACF9F1683F1A9009789DB /* LKDoubleTapPanGestureRecognizer.h */,
+				904ACFA01683F1A9009789DB /* LKDoubleTapPanGestureRecognizer.m */,
+				904ACF871683F0E1009789DB /* LKAppDelegate.h */,
+				904ACF881683F0E1009789DB /* LKAppDelegate.m */,
+				904ACF901683F0E1009789DB /* LKViewController.h */,
+				904ACF911683F0E1009789DB /* LKViewController.m */,
+				904ACF931683F0E1009789DB /* LKViewController.xib */,
+				904ACF7F1683F0E1009789DB /* Supporting Files */,
+			);
+			path = LKDoubleTapPanGestureExample;
+			sourceTree = "<group>";
+		};
+		904ACF7F1683F0E1009789DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				904ACF801683F0E1009789DB /* LKDoubleTapPanGestureExample-Info.plist */,
+				904ACF811683F0E1009789DB /* InfoPlist.strings */,
+				904ACF841683F0E1009789DB /* main.m */,
+				904ACF861683F0E1009789DB /* LKDoubleTapPanGestureExample-Prefix.pch */,
+				904ACF8A1683F0E1009789DB /* Default.png */,
+				904ACF8C1683F0E1009789DB /* Default@2x.png */,
+				904ACF8E1683F0E1009789DB /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		904ACF731683F0E0009789DB /* LKDoubleTapPanGestureExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 904ACF981683F0E1009789DB /* Build configuration list for PBXNativeTarget "LKDoubleTapPanGestureExample" */;
+			buildPhases = (
+				904ACF701683F0E0009789DB /* Sources */,
+				904ACF711683F0E0009789DB /* Frameworks */,
+				904ACF721683F0E0009789DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LKDoubleTapPanGestureExample;
+			productName = LKDoubleTapPanGestureExample;
+			productReference = 904ACF741683F0E0009789DB /* LKDoubleTapPanGestureExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		904ACF6B1683F0E0009789DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LK;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Lyo Kato";
+			};
+			buildConfigurationList = 904ACF6E1683F0E0009789DB /* Build configuration list for PBXProject "LKDoubleTapPanGestureExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 904ACF691683F0E0009789DB;
+			productRefGroup = 904ACF751683F0E0009789DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				904ACF731683F0E0009789DB /* LKDoubleTapPanGestureExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		904ACF721683F0E0009789DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				904ACF831683F0E1009789DB /* InfoPlist.strings in Resources */,
+				904ACF8B1683F0E1009789DB /* Default.png in Resources */,
+				904ACF8D1683F0E1009789DB /* Default@2x.png in Resources */,
+				904ACF8F1683F0E1009789DB /* Default-568h@2x.png in Resources */,
+				904ACF951683F0E1009789DB /* LKViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		904ACF701683F0E0009789DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				904ACF851683F0E1009789DB /* main.m in Sources */,
+				904ACF891683F0E1009789DB /* LKAppDelegate.m in Sources */,
+				904ACF921683F0E1009789DB /* LKViewController.m in Sources */,
+				904ACFA11683F1A9009789DB /* LKDoubleTapPanGestureRecognizer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		904ACF811683F0E1009789DB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				904ACF821683F0E1009789DB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		904ACF931683F0E1009789DB /* LKViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				904ACF941683F0E1009789DB /* en */,
+			);
+			name = LKViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		904ACF961683F0E1009789DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		904ACF971683F0E1009789DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		904ACF991683F0E1009789DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LKDoubleTapPanGestureExample/LKDoubleTapPanGestureExample-Prefix.pch";
+				INFOPLIST_FILE = "LKDoubleTapPanGestureExample/LKDoubleTapPanGestureExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		904ACF9A1683F0E1009789DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LKDoubleTapPanGestureExample/LKDoubleTapPanGestureExample-Prefix.pch";
+				INFOPLIST_FILE = "LKDoubleTapPanGestureExample/LKDoubleTapPanGestureExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		904ACF6E1683F0E0009789DB /* Build configuration list for PBXProject "LKDoubleTapPanGestureExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				904ACF961683F0E1009789DB /* Debug */,
+				904ACF971683F0E1009789DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		904ACF981683F0E1009789DB /* Build configuration list for PBXNativeTarget "LKDoubleTapPanGestureExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				904ACF991683F0E1009789DB /* Debug */,
+				904ACF9A1683F0E1009789DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 904ACF6B1683F0E0009789DB /* Project object */;
+}
